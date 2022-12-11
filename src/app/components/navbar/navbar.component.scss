@@ -1,0 +1,10 @@
+.bg-default {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 9%, rgba(55,55,55,1) 46%, rgba(56,56,56,1) 53%, rgba(115,115,115,1) 94%);
+}
+
+@media screen and(max-width:360px) {
+    nav{
+        display: none;
+    }
+}
