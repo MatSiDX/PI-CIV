@@ -6,6 +6,7 @@ import { Component, OnInit} from '@angular/core';
   styleUrls: ['./r-documentos.component.css']
 })
 export class RDocumentosComponent implements OnInit{
+    
     constructor() { }
 
     ngOnInit(): void {

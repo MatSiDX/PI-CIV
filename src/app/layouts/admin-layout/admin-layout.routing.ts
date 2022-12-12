@@ -11,6 +11,7 @@ import { OrganizacionesSocialesComponent } from '../../pages/organizaciones-soci
 import { DatosdemiJuntaDirectivaComponent} from '../../pages/generar-solicitud/datos-jd/datos-jd.component';
 import { DatosdeMiembrosComponent } from 'src/app/pages/generar-solicitud/datos-miembros/datos-miembros.component';
 import { RDocumentosComponent } from 'src/app/pages/generar-solicitud/r-documentos/r-documentos.component';
+import { MantenerParametroComponent } from 'src/app/pages/mantener-parametro/mantener-parametro.component';
 
 
 
@@ -25,5 +26,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'organizaciones-sociales',           component: OrganizacionesSocialesComponent },
     { path: 'datos-jd',  component: DatosdemiJuntaDirectivaComponent},
     { path: 'datos-miembros', component: DatosdeMiembrosComponent },
-    { path: 'r-documentos', component: RDocumentosComponent}
+    { path: 'r-documentos', component: RDocumentosComponent},
+    { path: 'mantener-parametro', component: MantenerParametroComponent}
 ];

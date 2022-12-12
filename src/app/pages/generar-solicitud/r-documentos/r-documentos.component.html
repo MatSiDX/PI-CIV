@@ -122,7 +122,7 @@
         </div>
     </div>
 </div>
-<div class="modal fade" id="ModalAlerta"data-keyboard="false" tabindex="-1"
+<div class="modal fade" id="ModalAlerta" data-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content" style="background-color: black; border: white 2px solid; border-radius: 15px;">
@@ -130,25 +130,47 @@
                <strong><h3 style="color: white;">¿ESTÁ SEGURO DE ENVIAR LA SOLICITUD?</h3></strong>               
             </div>
             <div class="modal-footer justify-content-between">
-                <button type="button" class="btn btn-secondary" style="background-color: red;" data-dismiss="modal" data-toggle="modal" data-target="#ModalAlerta2">CANCELAR</button>
-                <button type="button" class="btn btn-success"data-dismiss="modal" routerLinkActive="active"
+                <button type="button" class="btn btn-secondary" style="background-color: red;" data-dismiss="modal">CANCELAR</button>
+                <button type="button" class="btn btn-success" data-dismiss="modal" data-toggle="modal" data-target="#seguro" routerLinkActive="active"
                 [routerLink]="['/mi-organizacion-social']">ACEPTAR</button>
             </div>
         </div>
     </div>
 </div>
-<div class="modal fade" id="ModalAlerta2"data-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content" style="background-color: black; border: white 2px solid; border-radius: 15px;">
-            <div class="modal-body text-center font-weight-bold">
-               <strong><h3 style="color: white;"></h3></strong>               
+
+
+
+
+
+<div class="modal fade" id="seguro" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div style="opacity: 90%; background-color: black ; border:2px white solid; border-radius: 20px;"
+      class="modal-content">
+      <div style="border-radius: 20px;" class="modal-body justify-content-center">
+        <div class="row">
+          <div class="col-sm-4 justify-content-center align-items-center d-flex">
+            <img style="width: 140px; height: 120px;" src="./assets/img/landing/icon_muni.png" alt="">
+          </div>
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-sm-12">
+                <img style="width: 100%;" src="./assets/img/landing/raya.png" alt="">
+              </div>
+              <div class="col-sm-12">
+                <div class="text-light" style="font-size: 23px; text-align: center;">¡Nuevo requisito creado de manera
+                  exitosa!</div>
+
+              </div>
+              <div class="col-sm-12">
+                <img style="width: 100%;" src="./assets/img/landing/raya.png" alt="">
+              </div>
+
             </div>
-            <div class="modal-footer justify-content-between">
-                <button type="button" class="btn btn-secondary" style="background-color: red;" data-dismiss="modal">CANCELAR</button>
-                <button type="button" class="btn btn-success"data-dismiss="modal" routerLinkActive="active"
-                [routerLink]="['/mi-organizacion-social']">ACEPTAR</button>
-            </div>
+
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>

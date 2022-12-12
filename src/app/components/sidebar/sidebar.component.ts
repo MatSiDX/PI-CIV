@@ -14,6 +14,7 @@ export const ROUTES: RouteInfo[] = [
     { path: '/solicitudes-rechazadas', title: 'Solicitudes rechazadas',  icon:'fa-solid fa-file-circle-xmark'},
     { path: '/requisitos', title: 'Ver requisitos',  icon:'fa-solid fa-clipboard'},
     { path: '/organizaciones-sociales', title: 'Ver organizaciones sociales',  icon:'fa-solid fa-list-check' },
+    { path: '/mantener-parametro', title: 'Mantener Parametro', icon: 'fa-solid fa-list-check'},
     
 ];
 

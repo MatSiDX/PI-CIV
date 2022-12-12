@@ -17,6 +17,7 @@ import { OrganizacionesSocialesComponent } from '../../pages/organizaciones-soci
 import { DatosdemiJuntaDirectivaComponent} from '../../pages/generar-solicitud/datos-jd/datos-jd.component';
 import { DatosdeMiembrosComponent } from 'src/app/pages/generar-solicitud/datos-miembros/datos-miembros.component';
 import { RDocumentosComponent } from 'src/app/pages/generar-solicitud/r-documentos/r-documentos.component';
+import { MantenerParametroComponent } from 'src/app/pages/mantener-parametro/mantener-parametro.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 // import { ToastrModule } from 'ngx-toastr';
@@ -41,7 +42,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FormPerfilComponent,
     DatosdemiJuntaDirectivaComponent,
     DatosdeMiembrosComponent,
-    RDocumentosComponent
+    RDocumentosComponent,
+    MantenerParametroComponent
   ]
 })
 
