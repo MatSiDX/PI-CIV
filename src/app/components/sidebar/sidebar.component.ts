@@ -15,6 +15,8 @@ export const ROUTES: RouteInfo[] = [
     { path: '/requisitos', title: 'Ver requisitos',  icon:'fa-solid fa-clipboard'},
     { path: '/organizaciones-sociales', title: 'Ver organizaciones sociales',  icon:'fa-solid fa-list-check' },
     { path: '/mantener-parametro', title: 'Mantener Parametro', icon: 'fa-solid fa-list-check'},
+    { path: '/asignar-roles', title: 'Roles', icon: 'fa-regular fa-address-book'},   
+    { path: '/mantener-privilegio', title: 'Mantener Privilegios', icon:'fa-solid fa-lock' } 
     
 ];
 

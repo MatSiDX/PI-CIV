@@ -12,6 +12,8 @@ import { DatosdemiJuntaDirectivaComponent} from '../../pages/generar-solicitud/d
 import { DatosdeMiembrosComponent } from 'src/app/pages/generar-solicitud/datos-miembros/datos-miembros.component';
 import { RDocumentosComponent } from 'src/app/pages/generar-solicitud/r-documentos/r-documentos.component';
 import { MantenerParametroComponent } from 'src/app/pages/mantener-parametro/mantener-parametro.component';
+import { AsignarRolesComponent } from 'src/app/pages/asignar-roles/asignar-roles.component';
+import { MantenerPrivilegioComponent } from 'src/app/pages/mantener-privilegio/mantener-privilegio.component';
 
 
 
@@ -27,5 +29,7 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'datos-jd',  component: DatosdemiJuntaDirectivaComponent},
     { path: 'datos-miembros', component: DatosdeMiembrosComponent },
     { path: 'r-documentos', component: RDocumentosComponent},
-    { path: 'mantener-parametro', component: MantenerParametroComponent}
+    { path: 'mantener-parametro', component: MantenerParametroComponent},
+    { path: 'asignar-roles', component: AsignarRolesComponent},
+    { path: 'mantener-privilegio', component: MantenerPrivilegioComponent}
 ];
